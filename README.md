@@ -4,6 +4,8 @@ This repository contains the code, data, and simulation framework associated wit
 
 The project proposes a multi-objective approach to determine the optimal placement and sizing of Battery Energy Storage Systems (BESS) in distribution systems. The BESS can provide ancillary services individually or as stackable services, including frequency regulation and peak-shaving.
 
+Please check our pre-print paper on: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6264862
+
 ## Overview
 
 Battery Energy Storage Systems can improve the flexibility, reliability, and operational performance of distribution systems. However, their high investment cost requires planning strategies that account for financial return, technical impact, and operational performance.
