@@ -12,25 +12,6 @@ Each notebook fixes one service and one figure context, runs or loads the
 corresponding operation data, and writes the figure outputs to a dedicated
 folder.
 
-## Figure Map
-
-| Service | Figure | Notebook | Output folder |
-| --- | ---: | --- | --- |
-| FR | 7 | `FR_Fig_07_BESS_Size_Options.ipynb` | `FR_Fig_07_BESS_Option_Sizes` |
-| FR | 8 prev | `FR_Fig_08_orev_Annual_Operation.ipynb` | root CSV output |
-| FR | 8 | `FR_Fig_08_Monthly_Operation.ipynb` | `File` |
-| FR | 9 | `FR_Fig_09_Weekly_Operation.ipynb` | `FR_Fig_09_Weekly_Operation` |
-| PS | 11 | `PS_Fig_11_BESS_Size_Options.ipynb` | `PS_Fig_11_BESS_Option_Sizes` |
-| PS | 12 | `PS_Fig_12_Monthly_Operation.ipynb` | `PS_Fig_12_Monthly_Operation` |
-| PS | 13 | `PS_Fig_13_Weekly_Operation.ipynb` | `PS_Fig_13_Weekly_Operation` |
-| STK | 15 | `STK_Fig_15_BESS_Size_Options.ipynb` | `STK_Fig_15_BESS_Option_Sizes` |
-| STK | 16 | `STK_Fig_16_Monthly_Operation.ipynb` | `STK_Fig_16_Monthly_Operation` |
-| STK | 17 | `STK_Fig_17_Weekly_Operation.ipynb` | `STK_Fig_17_Weekly_Operation` |
-
-`reproducibility.py` centralizes these output folders and the mapping from
-service names to simulation functions. The existing notebooks can continue to
-run as before; new notebooks should prefer importing helpers from that module.
-
 ## Main Data Inputs
 
 - Annual operation files: `One_year_FR.csv`, `One_year_PS.csv`, `One_year_STK.csv`
