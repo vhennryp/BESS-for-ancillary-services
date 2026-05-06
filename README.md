@@ -1,5 +1,18 @@
 # BESS Service Simulation Figures
 
+## Disclaimer
+
+This repository is currently being updated to include all the resources required to reproduce the main results presented in the paper.
+
+At this stage, only the results related to the Frequency Regulation service can be reproduced. The main implementation file for this service is `f_BESS_Sv_FR.py`. The following notebooks can be executed to reproduce the corresponding figures:
+
+- `FR_Fig_07_BESS_Size_Options.ipynb`
+- `FR_Fig_08a_Annual_Operation.ipynb`
+- `FR_Fig_08b_Monthly_Operation.ipynb`
+- `FR_Fig_09_Weekly_Operation.ipynb`
+
+The remaining service cases, namely Peak Shaving and Stacked Service, will be completed and documented in the next update.
+
 This folder contains the notebooks and Python functions used to reproduce the
 paper figures for three BESS services:
 
