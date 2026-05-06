@@ -1,35 +1,20 @@
 # BESS Service Simulation Figures
 
-This folder contains the notebooks and Python functions used to reproduce the
-paper figures for three BESS services:
+## Disclaimer
 
-- `FR`: frequency regulation, implemented in `f_BESS_Sv_FR.py`
-- `PS`: peak shaving, implemented in `f_BESS_Sv_PS.py`
-- `STK`: stacked service, implemented in `f_BESS_Sv_STK.py`
+This repository is currently being updated to include all the resources required to reproduce the main results presented in the paper.
 
-The BESS configuration varies by power capacity, energy capacity, and placement.
-Each notebook fixes one service and one figure context, runs or loads the
-corresponding operation data, and writes the figure outputs to a dedicated
-folder.
+At this stage, only the results related to the Frequency Regulation service can be reproduced. The main implementation file for this service is `f_BESS_Sv_FR.py`. The following notebooks can be executed to reproduce the corresponding figures:
 
-## Figure Map
+- `FR_Fig_07_BESS_Size_Options.ipynb`
+- `FR_Fig_08a_Annual_Operation.ipynb`
+- `FR_Fig_08b_Monthly_Operation.ipynb`
+- `FR_Fig_09_Weekly_Operation.ipynb`
 
-| Service | Figure | Notebook | Output folder |
-| --- | ---: | --- | --- |
-| FR | 7 | `FR_Fig_07_BESS_Size_Options.ipynb` | `FR_Fig_07_BESS_Option_Sizes` |
-| FR | 8 prev | `FR_Fig_08_orev_Annual_Operation.ipynb` | root CSV output |
-| FR | 8 | `FR_Fig_08_Monthly_Operation.ipynb` | `File` |
-| FR | 9 | `FR_Fig_09_Weekly_Operation.ipynb` | `FR_Fig_09_Weekly_Operation` |
-| PS | 11 | `PS_Fig_11_BESS_Size_Options.ipynb` | `PS_Fig_11_BESS_Option_Sizes` |
-| PS | 12 | `PS_Fig_12_Monthly_Operation.ipynb` | `PS_Fig_12_Monthly_Operation` |
-| PS | 13 | `PS_Fig_13_Weekly_Operation.ipynb` | `PS_Fig_13_Weekly_Operation` |
-| STK | 15 | `STK_Fig_15_BESS_Size_Options.ipynb` | `STK_Fig_15_BESS_Option_Sizes` |
-| STK | 16 | `STK_Fig_16_Monthly_Operation.ipynb` | `STK_Fig_16_Monthly_Operation` |
-| STK | 17 | `STK_Fig_17_Weekly_Operation.ipynb` | `STK_Fig_17_Weekly_Operation` |
+The remaining service cases, namely Peak-shaving and Stackable Service, will be completed and documented in the next update.
 
-`reproducibility.py` centralizes these output folders and the mapping from
-service names to simulation functions. The existing notebooks can continue to
-run as before; new notebooks should prefer importing helpers from that module.
+## Available Figure
+[Figure 1: Weekly operation for the Frequency Regulation service](Images/FR_Fig_09_Weekly_Operation_500kW_2000kWh_4657to4824_20260506_124245.pdf)
 
 ## Main Data Inputs
 
