@@ -11,19 +11,7 @@ At this stage, only the results related to the Frequency Regulation service can 
 - `FR_Fig_08b_Monthly_Operation.ipynb`
 - `FR_Fig_09_Weekly_Operation.ipynb`
 
-The remaining service cases, namely Peak Shaving and Stacked Service, will be completed and documented in the next update.
-
-This folder contains the notebooks and Python functions used to reproduce the
-paper figures for three BESS services:
-
-- `FR`: frequency regulation, implemented in `f_BESS_Sv_FR.py`
-- `PS`: peak shaving, implemented in `f_BESS_Sv_PS.py`
-- `STK`: stacked service, implemented in `f_BESS_Sv_STK.py`
-
-The BESS configuration varies by power capacity, energy capacity, and placement.
-Each notebook fixes one service and one figure context, runs or loads the
-corresponding operation data, and writes the figure outputs to a dedicated
-folder.
+The remaining service cases, namely Peak-shaving and Stackable Service, will be completed and documented in the next update.
 
 ## Main Data Inputs
 
