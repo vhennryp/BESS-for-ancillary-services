@@ -14,7 +14,7 @@ At this stage, only the results related to the Frequency Regulation service can 
 The remaining service cases, namely Peak-shaving and Stackable Service, will be completed and documented in the next update.
 
 ## Available Figure
-[Figure 1: Weekly operation for the Frequency Regulation service](Images/FR_Fig_09_Weekly_Operation_500kW_2000kWh_4657to4824_20260506_124245.pdf)
+[Figure 1: Weekly operation for the Frequency Regulation service](Images/FR_Fig_09_Weekly_Operation_500kW_2000kWh_4657to4824_20260506_124245.jpg)
 
 ## Main Data Inputs
 
